@@ -1,0 +1,6 @@
+[build]
+  functions = "functions"
+  publish = "." # or your build directory
+
+[functions]
+  node_bundler = "esbuild"
